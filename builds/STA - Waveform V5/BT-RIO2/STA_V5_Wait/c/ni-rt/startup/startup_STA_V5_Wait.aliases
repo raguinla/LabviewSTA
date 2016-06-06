@@ -1,0 +1,8 @@
+[BT-RIO2]
+BT-RIO2="localhost"
+
+[cRIO-9074]
+cRIO-9074="10.0.19.18"
+
+[My Computer]
+My Computer="172.16.0.100"

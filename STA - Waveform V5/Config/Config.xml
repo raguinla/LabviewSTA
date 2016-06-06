@@ -1,0 +1,535 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>15.0.1</Version>
+<Cluster>
+<Name>Acquisition and Logging Configuration</Name>
+<NumElts>11</NumElts>
+<I32>
+<Name>Samples per Read</Name>
+<Val>12800</Val>
+</I32>
+<I32>
+<Name>Number of Reads to Save</Name>
+<Val>0</Val>
+</I32>
+<String>
+<Name>Data File Name</Name>
+<Val>cRIO_Data</Val>
+</String>
+<Array>
+<Name>TDMS Properties</Name>
+<Dimsize>8</Dimsize>
+<Cluster>
+<Name>TDMS Properties</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Name</Name>
+<Val>Enterprise</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>[CompanyName]</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>TDMS Properties</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Name</Name>
+<Val>Author</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>[DeveloperName]</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>TDMS Properties</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Name</Name>
+<Val>Operator</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>[OperatorName]</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>TDMS Properties</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Name</Name>
+<Val>TestSystem</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>[SystemName]</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>TDMS Properties</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Name</Name>
+<Val>Site</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>[Location]</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>TDMS Properties</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Name</Name>
+<Val>Line</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>[Line]</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>TDMS Properties</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Name</Name>
+<Val>Machine</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>[MachineName]</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>TDMS Properties</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Name</Name>
+<Val>Description</Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val>[Description]</Val>
+</String>
+</Cluster>
+</Array>
+<I32>
+<Name>Number of Channels</Name>
+<Val>16</Val>
+</I32>
+<DBL>
+<Name>Trigger - RMS Value</Name>
+<Val>1.80000000000000</Val>
+</DBL>
+<I32>
+<Name>Trigger - Channel</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Trigger - Time (Minute)</Name>
+<Val>30</Val>
+</I32>
+<Array>
+<Name>Channel Config</Name>
+<Dimsize>16</Dimsize>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>mod1/a0
+a0
+a00
+a00</Val>
+</String>
+<DBL>
+<Name>Sensitivity mV_EU</Name>
+<Val>1.01600000000000</Val>
+</DBL>
+<String>
+<Name>EU</Name>
+<Val>V</Val>
+</String>
+<U8>
+<Name>Input Configuration</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>dB Ref EU</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>mod1/a1</Val>
+</String>
+<DBL>
+<Name>Sensitivity mV_EU</Name>
+<Val>1.01600000000000</Val>
+</DBL>
+<String>
+<Name>EU</Name>
+<Val>V</Val>
+</String>
+<U8>
+<Name>Input Configuration</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>dB Ref EU</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>mod1/a2</Val>
+</String>
+<DBL>
+<Name>Sensitivity mV_EU</Name>
+<Val>1.01600000000000</Val>
+</DBL>
+<String>
+<Name>EU</Name>
+<Val>V</Val>
+</String>
+<U8>
+<Name>Input Configuration</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>dB Ref EU</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>mod1/a3</Val>
+</String>
+<DBL>
+<Name>Sensitivity mV_EU</Name>
+<Val>1.01600000000000</Val>
+</DBL>
+<String>
+<Name>EU</Name>
+<Val>V</Val>
+</String>
+<U8>
+<Name>Input Configuration</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>dB Ref EU</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>mod2/a0</Val>
+</String>
+<DBL>
+<Name>Sensitivity mV_EU</Name>
+<Val>1.01600000000000</Val>
+</DBL>
+<String>
+<Name>EU</Name>
+<Val>V</Val>
+</String>
+<U8>
+<Name>Input Configuration</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>dB Ref EU</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>mod2/a1</Val>
+</String>
+<DBL>
+<Name>Sensitivity mV_EU</Name>
+<Val>1.01600000000000</Val>
+</DBL>
+<String>
+<Name>EU</Name>
+<Val>V</Val>
+</String>
+<U8>
+<Name>Input Configuration</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>dB Ref EU</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>mod2/a2</Val>
+</String>
+<DBL>
+<Name>Sensitivity mV_EU</Name>
+<Val>1.01600000000000</Val>
+</DBL>
+<String>
+<Name>EU</Name>
+<Val>V</Val>
+</String>
+<U8>
+<Name>Input Configuration</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>dB Ref EU</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>mod2/a3</Val>
+</String>
+<DBL>
+<Name>Sensitivity mV_EU</Name>
+<Val>1.01600000000000</Val>
+</DBL>
+<String>
+<Name>EU</Name>
+<Val>V</Val>
+</String>
+<U8>
+<Name>Input Configuration</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>dB Ref EU</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>mod3/a0</Val>
+</String>
+<DBL>
+<Name>Sensitivity mV_EU</Name>
+<Val>1.01600000000000</Val>
+</DBL>
+<String>
+<Name>EU</Name>
+<Val>V</Val>
+</String>
+<U8>
+<Name>Input Configuration</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>dB Ref EU</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>mod3/a1</Val>
+</String>
+<DBL>
+<Name>Sensitivity mV_EU</Name>
+<Val>1.01600000000000</Val>
+</DBL>
+<String>
+<Name>EU</Name>
+<Val>V</Val>
+</String>
+<U8>
+<Name>Input Configuration</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>dB Ref EU</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>mod3/a2</Val>
+</String>
+<DBL>
+<Name>Sensitivity mV_EU</Name>
+<Val>1.01600000000000</Val>
+</DBL>
+<String>
+<Name>EU</Name>
+<Val>V</Val>
+</String>
+<U8>
+<Name>Input Configuration</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>dB Ref EU</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>mod3/a3</Val>
+</String>
+<DBL>
+<Name>Sensitivity mV_EU</Name>
+<Val>1.01600000000000</Val>
+</DBL>
+<String>
+<Name>EU</Name>
+<Val>V</Val>
+</String>
+<U8>
+<Name>Input Configuration</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>dB Ref EU</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>mod4/a0</Val>
+</String>
+<DBL>
+<Name>Sensitivity mV_EU</Name>
+<Val>1.01600000000000</Val>
+</DBL>
+<String>
+<Name>EU</Name>
+<Val>V</Val>
+</String>
+<U8>
+<Name>Input Configuration</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>dB Ref EU</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>mod4/a1</Val>
+</String>
+<DBL>
+<Name>Sensitivity mV_EU</Name>
+<Val>1.01600000000000</Val>
+</DBL>
+<String>
+<Name>EU</Name>
+<Val>V</Val>
+</String>
+<U8>
+<Name>Input Configuration</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>dB Ref EU</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>mod4/a2</Val>
+</String>
+<DBL>
+<Name>Sensitivity mV_EU</Name>
+<Val>1.01600000000000</Val>
+</DBL>
+<String>
+<Name>EU</Name>
+<Val>V</Val>
+</String>
+<U8>
+<Name>Input Configuration</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>dB Ref EU</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>Channel Name</Name>
+<Val>mod4/a3</Val>
+</String>
+<DBL>
+<Name>Sensitivity mV_EU</Name>
+<Val>1.01600000000000</Val>
+</DBL>
+<String>
+<Name>EU</Name>
+<Val>V</Val>
+</String>
+<U8>
+<Name>Input Configuration</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>dB Ref EU</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+</Cluster>
+</Array>
+<U32>
+<Name>data rate (S/s)</Name>
+<Val>51200</Val>
+</U32>
+<DBL>
+<Name>Time Measure</Name>
+<Val>60.00000000000000</Val>
+</DBL>
+</Cluster>
+</LVData>

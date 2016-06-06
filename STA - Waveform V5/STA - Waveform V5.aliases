@@ -1,0 +1,9 @@
+[BT-RIO2]
+BT-RIO2 = "172.16.0.103"
+
+[cRIO-9074]
+cRIO-9074 = "10.0.19.18"
+
+[My Computer]
+My Computer = "192.168.0.201"
+
