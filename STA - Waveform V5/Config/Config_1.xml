@@ -3,7 +3,11 @@
 <Version>15.0.1</Version>
 <Cluster>
 <Name>Acquisition and Logging Configuration</Name>
-<NumElts>11</NumElts>
+<NumElts>12</NumElts>
+<U8>
+<Name>Data Rate</Name>
+<Val>1</Val>
+</U8>
 <I32>
 <Name>Samples per Read</Name>
 <Val>12800</Val>
@@ -140,10 +144,7 @@
 <NumElts>5</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>mod1/a0
-a0
-a00
-a00</Val>
+<Val>a0</Val>
 </String>
 <DBL>
 <Name>Sensitivity mV_EU</Name>
@@ -155,7 +156,7 @@ a00</Val>
 </String>
 <U8>
 <Name>Input Configuration</Name>
-<Val>0</Val>
+<Val>2</Val>
 </U8>
 <DBL>
 <Name>dB Ref EU</Name>
@@ -167,7 +168,7 @@ a00</Val>
 <NumElts>5</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>mod1/a1</Val>
+<Val>a1</Val>
 </String>
 <DBL>
 <Name>Sensitivity mV_EU</Name>
@@ -191,7 +192,7 @@ a00</Val>
 <NumElts>5</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>mod1/a2</Val>
+<Val>a2</Val>
 </String>
 <DBL>
 <Name>Sensitivity mV_EU</Name>
@@ -215,7 +216,7 @@ a00</Val>
 <NumElts>5</NumElts>
 <String>
 <Name>Channel Name</Name>
-<Val>mod1/a3</Val>
+<Val>a3</Val>
 </String>
 <DBL>
 <Name>Sensitivity mV_EU</Name>
@@ -525,7 +526,7 @@ a00</Val>
 </Array>
 <U32>
 <Name>data rate (S/s)</Name>
-<Val>51200</Val>
+<Val>25600</Val>
 </U32>
 <DBL>
 <Name>Time Measure</Name>
